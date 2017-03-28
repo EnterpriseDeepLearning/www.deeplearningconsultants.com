@@ -109,7 +109,28 @@ VUC Inc. is a leading machine learning consulting firm, headquartered in Hanover
 
     <footer class="site-footer">
 
-  <div class="wrap">
+  
+	    <script src="http://code.jquery.com/jquery-1.7.min.js"></script>
+<script>
+$(function () {
+    var messages = [],
+        index = 0;
+    messages.push('Mobile Devices');
+    messages.push('Medical Imaging');
+    messages.push('Energy');
+    messages.push('Finance');
+    function cycle() {
+        $('#some-id').html(messages[index]);
+        index++;
+        if (index === messages.length) {
+            index = 0;
+        }
+        setTimeout(cycle, 9500);
+    }
+    cycle();
+});
+</script>
+	    <div class="wrap">
 
     <!-- <h2 class="footer-heading">Vermont Uptime Company blog</h2> -->
 
@@ -150,26 +171,6 @@ VUC Inc. is a leading machine learning consulting firm, headquartered in Hanover
         </li>
       </ul>
     </div>
-	    <script src="http://code.jquery.com/jquery-1.7.min.js"></script>
-<script>
-$(function () {
-    var messages = [],
-        index = 0;
-    messages.push('Mobile Devices');
-    messages.push('Medical Imaging');
-    messages.push('Energy');
-    messages.push('Finance');
-    function cycle() {
-        $('#some-id').html(messages[index]);
-        index++;
-        if (index === messages.length) {
-            index = 0;
-        }
-        setTimeout(cycle, 9500);
-    }
-    cycle();
-});
-</script>
 <p class = "bottom-three">
 </p>
 
