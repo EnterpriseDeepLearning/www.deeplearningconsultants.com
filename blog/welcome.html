@@ -8,14 +8,14 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Vermont Uptime Company Inc. Blog</title>
+    <title>VUC Inc. Blog</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Deep Learning Company based in Hanover, NH.">
     <link rel="canonical" href="http://vuc.us/">
     <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Vermont Uptime Company Blog posts" />
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="http:/vuc.us/main.css">
 
 
 </head>
@@ -29,7 +29,7 @@
 
    
 
-    <a class="site-title" href="http://vuc.us" >Vermont Uptime Company Inc. Blog</a>
+    <a class="site-title" href="http://vuc.us" >VUC Inc. Blog</a>
     
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -45,7 +45,7 @@
       </a>
       <div class="trigger">
         
-          <a class="page-link" href="about.html">About</a>
+          <a class="page-link" href="blog/about.html">About</a>
         
           
         
@@ -100,16 +100,35 @@ Vermont Uptime Company Inc. is a leading deep learning consulting firm, headquar
       </div>
     </div>
 
-    <footer class="site-footer">
-
+<footer class="site-footer">
+   <script src="http://code.jquery.com/jquery-1.7.min.js"></script>
+<script>
+$(function () {
+    var messages = [],
+        index = 0;
+    messages.push('Mobile');
+    messages.push('Healthcare');
+    messages.push('Energy');
+    messages.push('Finance');
+    function cycle() {
+        $('#some-id').html(messages[index]);
+        index++;
+        if (index === messages.length) {
+            index = 0;
+        }
+        setTimeout(cycle, 1750);
+    }
+    cycle();
+});
+</script>
   <div class="wrap">
 
-    <!-- <h2 class="footer-heading">Vermont Uptime Company blog</h2> -->
+    <!--  <h2 class="footer-heading">Vermont Uptime Company blog</h2>  -->
 
     <div class="footer-col-1 column">
       <ul>
         <li>March 2017</li>
-        <li><a href="mailto:s@vuc.us"></a></li>
+        
       </ul>
     </div>
 
@@ -137,18 +156,20 @@ Vermont Uptime Company Inc. is a leading deep learning consulting firm, headquar
         <li>
           <a href="https://twitter.com/vermontuptime">
            
-            <span class="username">vermontuptime</span>
+            <span class="username">vermontcompany</span>
           </a>
         </li>
         </li>
       </ul>
     </div>
 
-    <div class="footer-col-3 column">
-      <p class="text">Deep Learning in Hanover, NH and Vermont.<!--Deep Learning for Vision and Natural Language. SBIR Phase 1 funding decision to be determined in 2018. (see <a href="http://vahula.com"> <span class="username">Vahula, LLC</span>
+     <div class="footer-col-3 column">
+	    <div id="block_container">
+	    <p class="text"><ul><div id = "some-id"></div></ul> <!--Deep Learning for Vision and Natural Language. SBIR Phase 1 funding decision to be determined in 2018. (see <a href="http://vahula.com"> <span class="username">Vahula, LLC</span>
           </a> or <a href="https://www.sbir.gov/node/1156353"> <span class="username">sbir.gov</span>
-          </a> for an update). --></p>
+          </a> for an update).  --></p>
     </div>
+
 
   </div>
 
