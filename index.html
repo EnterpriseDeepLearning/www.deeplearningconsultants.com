@@ -17,7 +17,21 @@
 
 </head>
 
+<style>
+	 .bottom-three {
+     margin-bottom: 0.8cm;
+  }
+	a:link {color: black;}      /* unvisited link */
+       a:visited {color: black;}   /* visited link */
+       a:hover {color: black;}     /* mouse over link */
+       a:active {color: black;}    /* selected link */
 
+
+#block_container
+{
+    text-align:center;
+}
+	</style>
     <body>
 
     <header class="site-header">
@@ -140,12 +154,41 @@ VUC Inc. is a leading machine learning consulting firm, headquartered in Hanover
         </li>
       </ul>
     </div>
+	    <script src="http://code.jquery.com/jquery-1.7.min.js"></script>
+<script>
+$(function () {
+    var messages = [],
+        index = 0;
+
+    messages.push('Mobile Devices');
+    messages.push('Medical Imaging');
+    messages.push('Energy');
+    messages.push('Finance');
+
+    function cycle() {
+        $('#some-id').html(messages[index]);
+        index++;
+
+        if (index === messages.length) {
+            index = 0;
+        }
+
+        setTimeout(cycle, 9500);
+    }
+
+    cycle();
+});
+</script>
+<p class = "bottom-three">
+</p>
 
     <div class="footer-col-3 column">
-      <p class="text">Machine Learning + ____________ <!--Deep Learning for Vision and Natural Language. SBIR Phase 1 funding decision to be determined in 2018. (see <a href="http://vahula.com"> <span class="username">Vahula, LLC</span>
+	    <div id="block_container">
+	    <p class="text">Machine Learning + <ul><div id = "some-id"></div></ul> <!--Deep Learning for Vision and Natural Language. SBIR Phase 1 funding decision to be determined in 2018. (see <a href="http://vahula.com"> <span class="username">Vahula, LLC</span>
           </a> or <a href="https://www.sbir.gov/node/1156353"> <span class="username">sbir.gov</span>
           </a> for an update).  --></p>
     </div>
+	    </div>
 
   </div>
 
