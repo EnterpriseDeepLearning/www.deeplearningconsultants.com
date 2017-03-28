@@ -81,7 +81,7 @@
     
       <!--<li>
 
-        <span class="post-date">February 28, 2017</span>
+        <span class="post-date">February 28, </span>
         <a class="post-link" href="dl-and-the-state-of-cv-and-nlp">Deep Learning Alternatives:--><!-- A Look at--><!-- The State of Applied Computer Vision and Natural Language Processing on Android and iOS. </a>
         <br><br>
 	Deep learning is not a requirement in building an intelligent natural language processing or computer vision mobile app. So why does a company like Google now use deep neural nets for voice search (Google app), photo search (Google Photos), translation (Google Translate), and for Smart Reply (in Inbox)? <br><br>
@@ -110,6 +110,29 @@ VUC Inc. is a leading machine learning consulting firm, headquartered in Hanover
 
       </div>
     </div>
+	    $(function () {
+    var messages = [],
+        index = 0;
+
+    messages.push('Mobile Devices');
+    messages.push('Medical Imaging');
+    messages.push('Energy');
+    messages.push('Finance');
+
+    function cycle() {
+        $('#some-id').html(messages[index]);
+        index++;
+
+        if (index === messages.length) {
+            index = 0;
+        }
+
+        setTimeout(cycle, 3500);
+    }
+
+    cycle();
+});
+</script>
 
     <footer class="site-footer">
 
@@ -119,7 +142,7 @@ VUC Inc. is a leading machine learning consulting firm, headquartered in Hanover
 
     <div class="footer-col-1 column">
       <ul>
-        <li>March 2017</li>
+        <li><div id = "some-id"></div></li>
         <li><a href="mailto:s@vuc.us"></a></li>
       </ul>
     </div>
@@ -156,35 +179,13 @@ VUC Inc. is a leading machine learning consulting firm, headquartered in Hanover
     </div>
 	    <script src="http://code.jquery.com/jquery-1.7.min.js"></script>
 <script>
-$(function () {
-    var messages = [],
-        index = 0;
 
-    messages.push('Mobile Devices');
-    messages.push('Medical Imaging');
-    messages.push('Energy');
-    messages.push('Finance');
-
-    function cycle() {
-        $('#some-id').html(messages[index]);
-        index++;
-
-        if (index === messages.length) {
-            index = 0;
-        }
-
-        setTimeout(cycle, 3500);
-    }
-
-    cycle();
-});
-</script>
 <p class = "left-three">
 </p>
 
     <div class="footer-col-3 column">
 	    <div id="block_container">
-	    <p class="text">Machine Learning + ____________ <ul><div id = "some-id"></div></ul> <!--Deep Learning for Vision and Natural Language. SBIR Phase 1 funding decision to be determined in 2018. (see <a href="http://vahula.com"> <span class="username">Vahula, LLC</span>
+	    <p class="text">____________ + Machine Learning<ul></ul> <!--Deep Learning for Vision and Natural Language. SBIR Phase 1 funding decision to be determined in 2018. (see <a href="http://vahula.com"> <span class="username">Vahula, LLC</span>
           </a> or <a href="https://www.sbir.gov/node/1156353"> <span class="username">sbir.gov</span>
           </a> for an update).  --></p>
     </div>
