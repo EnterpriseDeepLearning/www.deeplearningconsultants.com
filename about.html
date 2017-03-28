@@ -75,7 +75,26 @@
   </article>
 
     <footer class="site-footer">
-
+   <script src="http://code.jquery.com/jquery-1.7.min.js"></script>
+<script>
+$(function () {
+    var messages = [],
+        index = 0;
+    messages.push('Mobile Devices');
+    messages.push('Medical Imaging');
+    messages.push('Energy');
+    messages.push('Finance');
+    function cycle() {
+        $('#some-id').html(messages[index]);
+        index++;
+        if (index === messages.length) {
+            index = 0;
+        }
+        setTimeout(cycle, 1750);
+    }
+    cycle();
+});
+</script>
   <div class="wrap">
 
     <!--  <h2 class="footer-heading">Vermont Uptime Company blog</h2>  -->
