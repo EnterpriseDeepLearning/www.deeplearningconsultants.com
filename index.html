@@ -19,14 +19,12 @@
 
 <style>
 	 .bottom-three {
-     margin-left: 0.8cm;
+     margin-bottom: 0.8cm;
   }
 	a:link {color: black;}      /* unvisited link */
        a:visited {color: black;}   /* visited link */
        a:hover {color: black;}     /* mouse over link */
        a:active {color: black;}    /* selected link */
-
-
 #block_container
 {
     text-align:center;
@@ -80,12 +78,10 @@
   <ul class="posts">
     
       <!--<li>
-
-        <span class="post-date">February 28, </span>
+        <span class="post-date">February 28, 2017</span>
         <a class="post-link" href="dl-and-the-state-of-cv-and-nlp">Deep Learning Alternatives:--><!-- A Look at--><!-- The State of Applied Computer Vision and Natural Language Processing on Android and iOS. </a>
         <br><br>
 	Deep learning is not a requirement in building an intelligent natural language processing or computer vision mobile app. So why does a company like Google now use deep neural nets for voice search (Google app), photo search (Google Photos), translation (Google Translate), and for Smart Reply (in Inbox)? <br><br>
-
 In short, deep learning makes fewer mistakes than traditional machine learning methods. Deep learning, enabled by slightly better methods, more data, and more computing power, each of which have become accessible in only the first and second decades of this century, is now the default technology for these Google apps for the logical reason that it makes fewer mistakes. You need only look at the landscape of readily available traditional machine learning demonstration apps to motivate your interest in applying deep learning. <br><br> You can look at a selection of these apps below. This is an example of  what I can download from Github, run on my phone, and build off of as open source code today. You can see that these apps are very smart, but none  of them have an error rate low enough to really render them useful for anything more than low-consequence domains, such as consumer photo editing or educational technology, where a small number of errors are not medically harmful and may even go unnoticed. <br><br>1. Speech Recognition  <br><br>2. Handwriting Recognition<br><br>3. Object Recognition<br><br>4. Facial Recognition
 	
       </li>-->
@@ -109,31 +105,7 @@ VUC Inc. is a leading machine learning consulting firm, headquartered in Hanover
 </div>
 
       </div>
-	    <script>
     </div>
-	    $(function () {
-    var messages = [],
-        index = 0;
-
-    messages.push('Mobile Devices');
-    messages.push('Medical Imaging');
-    messages.push('Energy');
-    messages.push('Finance');
-
-    function cycle() {
-        $('#some-id').html(messages[index]);
-        index++;
-
-        if (index === messages.length) {
-            index = 0;
-        }
-
-        setTimeout(cycle, 3500);
-    }
-
-    cycle();
-});
-</script>
 
     <footer class="site-footer">
 
@@ -143,7 +115,7 @@ VUC Inc. is a leading machine learning consulting firm, headquartered in Hanover
 
     <div class="footer-col-1 column">
       <ul>
-        <li><div id = "some-id"></div></li>
+        <li>March 2017</li>
         <li><a href="mailto:s@vuc.us"></a></li>
       </ul>
     </div>
@@ -179,14 +151,35 @@ VUC Inc. is a leading machine learning consulting firm, headquartered in Hanover
       </ul>
     </div>
 	    <script src="http://code.jquery.com/jquery-1.7.min.js"></script>
+<script>
+$(function () {
+    var messages = [],
+        index = 0;
+    messages.push('Mobile Devices');
+    messages.push('Medical Imaging');
+    messages.push('Energy');
+    messages.push('Finance');
+    function cycle() {
+        $('#some-id').html(messages[index]);
+        index++;
+        if (index === messages.length) {
+            index = 0;
+        }
+        setTimeout(cycle, 9500);
+    }
+    cycle();
+});
+</script>
+<p class = "bottom-three">
+</p>
 
-
+    <div class="footer-col-3 column">
 	    <div id="block_container">
-	    <p class="text">____________ + Machine Learning<ul></ul> <!--Deep Learning for Vision and Natural Language. SBIR Phase 1 funding decision to be determined in 2018. (see <a href="http://vahula.com"> <span class="username">Vahula, LLC</span>
+	    <p class="text">Machine Learning + <ul><div id = "some-id"></div></ul> <!--Deep Learning for Vision and Natural Language. SBIR Phase 1 funding decision to be determined in 2018. (see <a href="http://vahula.com"> <span class="username">Vahula, LLC</span>
           </a> or <a href="https://www.sbir.gov/node/1156353"> <span class="username">sbir.gov</span>
           </a> for an update).  --></p>
     </div>
-	    
+	    </div>
 
   </div>
 
