@@ -24,7 +24,11 @@
 
   <div class="wrap">
 
-
+  <div style="float:left; margin-top:10px; margin-right:10px;">
+    <a href="/feed.xml">
+      <img src="V.png" width="40">
+    </a>
+    </div>
     <a class="site-title" href="http://vuc.us/blog">VUC Inc. Blog</a>
     
     <nav class="site-nav">
@@ -80,9 +84,9 @@
 $(function () {
     var messages = [],
         index = 0;
-    messages.push('Mobile');
     messages.push('Healthcare');
     messages.push('Energy');
+    messages.push('Commerce');
     messages.push('Finance');
     function cycle() {
         $('#some-id').html(messages[index]);
@@ -90,7 +94,7 @@ $(function () {
         if (index === messages.length) {
             index = 0;
         }
-        setTimeout(cycle, 1750);
+        setTimeout(cycle, 1500);
     }
     cycle();
 });
@@ -130,7 +134,7 @@ $(function () {
         <li>
           <a href="https://twitter.com/vermontuptime">
            
-            <span class="username">vermontcompany</span>
+            <span class="username">Vermontcompany</span>
           </a>
         </li>
         </li>
