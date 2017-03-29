@@ -119,9 +119,9 @@ VUC Inc. is a leading machine learning consulting firm, headquartered in Hanover
 $(function () {
     var messages = [],
         index = 0;
-    messages.push('Mobile');
     messages.push('Healthcare');
     messages.push('Energy');
+    messages.push('Commerce');
     messages.push('Finance');
     function cycle() {
         $('#some-id').html(messages[index]);
@@ -129,7 +129,7 @@ $(function () {
         if (index === messages.length) {
             index = 0;
         }
-        setTimeout(cycle, 1750);
+        setTimeout(cycle, 1500);
     }
     cycle();
 });
