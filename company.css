@@ -9,6 +9,15 @@ header {
   transition: top 0.2s ease-in-out;
   width: 100%;
 }
+.twitterborder {
+    width:300px;
+    height:300px;
+    margin-top:3px;
+    margin-right:5%;
+    float:right;
+    background:#707070;
+    text-align: center;
+}
 .footer {
     background: white;
     height: 100px;
