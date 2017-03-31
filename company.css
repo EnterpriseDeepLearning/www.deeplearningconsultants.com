@@ -18,12 +18,15 @@ header {
     padding:10px;
     color:#ffffff;
 }
-iframe {
-  
+@media screen and (max-width: 500px) {
+   iframe {
+ max-width: 20% !important; 
 }
 .iframe {
-  
+  max-width: 20% !important;
 }
+}
+
 // we'll add this class using javascript
 .nav-up {
   top: -40px; // same as header height. use variables in LESS/SASS
