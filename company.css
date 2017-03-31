@@ -19,7 +19,10 @@ header {
     color:#ffffff;
 }
 iframe {
-  width: 200px;
+  max-width: 100% !important;
+}
+.iframe {
+  max-width: 100% !important;
 }
 // we'll add this class using javascript
 .nav-up {
