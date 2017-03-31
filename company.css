@@ -18,13 +18,6 @@ header {
     padding:10px;
     color:#ffffff;
 }
-   iframe {
- max-width: 21% !important; 
-}
-.iframe {
-  max-width: 21% !important;
-}
-
 
 // we'll add this class using javascript
 .nav-up {
