@@ -9,6 +9,15 @@ header {
   transition: top 0.2s ease-in-out;
   width: 100%;
 }
+.footer {
+    background: blue;
+    height: 100px;
+    margin: auto;
+    width: 400px;
+    text-align:center;
+    padding:10px;
+    color:#ffffff;
+}
 // we'll add this class using javascript
 .nav-up {
   top: -40px; // same as header height. use variables in LESS/SASS
