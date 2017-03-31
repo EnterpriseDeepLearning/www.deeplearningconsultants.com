@@ -19,8 +19,7 @@ header {
     color:#ffffff;
 }
 iframe {
-  width: 1px;
-  min-width: 100%;
+  width: 200px;
 }
 // we'll add this class using javascript
 .nav-up {
