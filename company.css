@@ -26,10 +26,10 @@ header {
 }
 @media screen and (min-width: 8000px) {
    iframe {
- max-width: 100% !important; 
+ max-width: 20% !important; 
 }
 .iframe {
-  max-width: 100% !important;
+  max-width: 20% !important;
 }
 }
 
