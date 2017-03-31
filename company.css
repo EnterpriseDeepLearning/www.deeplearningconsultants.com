@@ -18,12 +18,18 @@ header {
     padding:10px;
     color:#ffffff;
 }
-@media screen and (max-width: 320px) {
    iframe {
  max-width: 20% !important; 
 }
 .iframe {
   max-width: 20% !important;
+}
+@media screen and (min-width: 8000px) {
+   iframe {
+ max-width: 100% !important; 
+}
+.iframe {
+  max-width: 100% !important;
 }
 }
 
