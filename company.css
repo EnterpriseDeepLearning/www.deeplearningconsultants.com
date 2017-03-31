@@ -18,6 +18,10 @@ header {
     padding:10px;
     color:#ffffff;
 }
+iframe {
+  width: 1px;
+  min-width: 100%;
+}
 // we'll add this class using javascript
 .nav-up {
   top: -40px; // same as header height. use variables in LESS/SASS
