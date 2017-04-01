@@ -10,6 +10,7 @@ header {
   transition: top 0.2s ease-in-out;
   width: 100%;
 }
+.ath-viewport {display:none;}
 .twitterborder {
     background: white;
     height: 100px;
