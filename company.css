@@ -8,7 +8,7 @@ header {
   top: 0;
   text-align:center;
   transition: top 0.2s ease-in-out;
-  width: 100%;
+  width: 120%;
 }
 blockquote
 {
@@ -24,7 +24,7 @@ blockquote
     background: white;
     height: 100px;
     margin: auto;
-    width: 320px;
+    width: 280px;
     text-align:center;
     padding:-20px;
     color:#ffffff;
