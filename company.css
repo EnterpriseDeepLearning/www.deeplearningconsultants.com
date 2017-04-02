@@ -5,8 +5,8 @@ header {
   background: #ffffff;
   height: 70px;
   position: fixed;
-  left: -100px; /* this must be TWICE the required offset distance*/
-    padding-right: 100px; /* must be the same amount as above */
+  left: -50px; /* this must be TWICE the required offset distance*/
+    padding-right: 50px; /* must be the same amount as above */
   top: 0;
   text-align:center;
   transition: top 0.2s ease-in-out;
