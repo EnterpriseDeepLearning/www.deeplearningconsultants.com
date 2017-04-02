@@ -1,9 +1,9 @@
 body {
-  padding-top: 70px; // (same as header height)
+  padding-top: 80px; // (same as header height)
 }
 header {
   background: #ffffff;
-  height: 70px;
+  height: 80px;
   position: fixed;
   left: -10px; /* this must be TWICE the required offset distance*/
     padding-right: 10px; /* must be the same amount as above */
