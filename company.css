@@ -1,5 +1,5 @@
 body {
-  padding-top: 40px; // (same as header height)
+  padding-top: 70px; // (same as header height)
 }
 header {
   background: #ffffff;
@@ -10,8 +10,6 @@ header {
   transition: top 0.2s ease-in-out;
   width: 100%;
 }
-.ath-viewport {display:none;}
-.yclinks { font-family:Verdana, Geneva, sans-serif; font-size:  8pt; color:#828282; }
 .twitterborder {
     background: white;
     height: 100px;
@@ -20,18 +18,4 @@ header {
     text-align:center;
     padding:10px;
     color:#ffffff;
-}
-.footer {
-    background: white;
-    height: 100px;
-    margin: auto;
-    width: 100%;
-    text-align:center;
-    padding:10px;
-    color:#ffffff;
-}
-
-// we'll add this class using javascript
-.nav-up {
-  top: -40px; // same as header height. use variables in LESS/SASS
 }
