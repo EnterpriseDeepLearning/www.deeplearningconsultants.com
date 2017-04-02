@@ -45,6 +45,13 @@ a:visited { color: #205cba; }
   border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
   background-color: white;
+  position: fixed;
+  /*left: -10px; /* this must be TWICE the required offset distance*/
+    padding-right: 10px; /* must be the same amount as above */
+  top: 0;
+/*  text-align:center;*/
+  transition: top 0.2s ease-in-out;
+  width: 100%;
 }
 
 .site-title,
