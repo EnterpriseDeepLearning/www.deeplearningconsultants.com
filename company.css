@@ -12,7 +12,7 @@ header {
 }
 blockquote
 {
-  margin-left:170px;
+  margin-left:70px;
   padding: 8px;
   width: 100 px;
   min-height: 2px;
@@ -26,7 +26,7 @@ blockquote
     margin: auto;
     width: 320px;
     text-align:center;
-    padding:10px;
+    padding:1px;
     color:#ffffff;
 }
 
