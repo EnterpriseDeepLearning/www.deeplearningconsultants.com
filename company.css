@@ -10,6 +10,17 @@ header {
   transition: top 0.2s ease-in-out;
   width: 100%;
 }
+blockquote
+{
+  margin-left:170px;
+  font-family:"Segoe Print", "Times New Roman", Verdana;
+  padding: 8px;
+  width: 320 px;
+  min-height: 44px;
+  border:2px solid black;
+  border-radius:6px;  
+  z-index:1;
+}
 .twitterborder {
     background: white;
     height: 100px;
