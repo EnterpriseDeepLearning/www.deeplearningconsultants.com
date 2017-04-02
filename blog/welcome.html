@@ -127,7 +127,11 @@ $(function () {
 
     <div class="footer-col-1 column">
       <ul>
-        <li><?php echo date('F Y'); ?></li>
+n =  new Date();
+m = n.getMonth() + 1;
+d = n.getDate();
+document.getElementById("date").innerHTML = m + "." + d;
+        <li><p id="date"></p></li>
         
       </ul>
     </div>
