@@ -10,7 +10,7 @@ header {
   top: 0;
   text-align:center;
   transition: top 0.2s ease-in-out;
-  width: 120%;
+  width: 100%;
 }
 blockquote
 {
