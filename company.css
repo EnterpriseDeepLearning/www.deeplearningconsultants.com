@@ -5,8 +5,8 @@ header {
   background: #ffffff;
   height: 70px;
   position: fixed;
-  left: -40px; /* this must be TWICE the required offset distance*/
-    padding-right: 40px; /* must be the same amount as above */
+  left: -10px; /* this must be TWICE the required offset distance*/
+    padding-right: 10px; /* must be the same amount as above */
   top: 0;
   text-align:center;
   transition: top 0.2s ease-in-out;
@@ -15,9 +15,9 @@ header {
 blockquote
 {
   margin-left:70px;
-  padding: 0px;
+  padding: 8px;
   width: 100 px;
-  max-height: 175px;
+  max-height: 200px;
   border:2px solid black;
   border-radius:4px;  
   z-index:10;
