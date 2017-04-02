@@ -17,8 +17,8 @@ blockquote
   width: 100 px;
   min-height: 2px;
   border:2px solid black;
-  border-radius:60px;  
-  z-index:1;
+  border-radius:400px;  
+  z-index:10;
 }
 .twitterborder {
     background: white;
