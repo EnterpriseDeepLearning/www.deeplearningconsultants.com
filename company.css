@@ -13,9 +13,8 @@ header {
 blockquote
 {
   margin-left:170px;
-  font-family:"Segoe Print", "Times New Roman", Verdana;
   padding: 8px;
-  width: 280 px;
+  width: 100 px;
   min-height: 44px;
   border:2px solid black;
   border-radius:6px;  
